@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary: #FF42A5;
+    --fontcolor: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --btncolor: #4EC5F7;
+    --navitem: #3C354F;
+}
+
+nav {
+    padding: 0 240px 0 200px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logopng {
+    width: 86px;
+    height: 40px;
+}
+
+nav .logo h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.nav-item-container{
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 32px;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--navitem);
+
+}
+
+.nav-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    padding: 10px;
+}
+
+.nav-btn a {
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon a img {
+    width: auto;
+    height: 24px;
+}
+
+
+/* banner part start */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-bg {
+    background-image: url(../images/Group\ 14.png);
+    width: 901px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-bg h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-bg h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-a a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 17px;
+    color: var(--navitem);
+}
+
+.banner-container img {
+    margin-right: 240px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.primary {
+    background-color: var(--primary);
+    padding: 21px 40px;
+    border-radius: 48px;
+}
+
+.btnanother {
+    background-color: var(--btncolor);
+    padding: 21px 40px;
+    border-radius: 48px;
+}
+
+/* we are gamer part start */
+.we-gammer-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    padding: 55px 240px;
+    text-align: end;
+    max-width: 100%;
+}
+
+.primary a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.we-gammer-container .primary{
+    margin-left: 550px;
+    margin-bottom: 45px;
+}
+
+.we-gammer-content {
+    max-width: 520px;
+    text-align: right;
+}
+
+.we-gamer-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 95px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-gamer-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--navitem);
+    padding: 24px 0px 53px 75px;
+}
+.we-gamer-content h6{
+    color: var(--navitem);
+    font-size: 24px;
+    font-weight: 500;
+}
+.we-gamer-content h3{
+    color: var(--navitem);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* games card part start */
