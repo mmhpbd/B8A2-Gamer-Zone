@@ -222,3 +222,202 @@ button {
 }
 
 /* we gamer part end */
+
+/* online games part start */
+.online-games-container {}
+
+.online-games-layout {
+    margin-top: 120px;
+}
+
+.online-games-title {
+    text-align: center;
+    color: var(--primaryfont);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-games-des {
+    color: var(--primaryfont);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 48px 0px 0 240px;
+}
+
+.games-card {
+    width: 342px;
+    height: 500px;
+}
+
+.card {
+    width: 342px;
+    height: 400px;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-overflow {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), rgba(12, 7, 7, 0.37) 50% / cover no-repeat;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.card:hover .card-overflow {
+    right: 0;
+}
+
+.watchicon {
+    width: 48px;
+    height: 48px;
+    padding-left: 35px;
+}
+
+.watch {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--primary);
+}
+
+.card-title {
+    color: var(--primaryfont);
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* online games part end */
+/* play instantly part start */
+.play-instantly-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instantly-content {
+    width: 370px;
+    height: auto;
+    padding-right: 120px;
+}
+
+.instantly-title {
+    color: var(--primaryfont);
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.instantly-description {
+    color: var(--primaryfont);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+}
+
+.instantly-img {
+    width: 635px;
+    height: 650px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.ins-main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.ins-sec-img {
+    width: 319px;
+    height: 365px;
+    top: 360px;
+    right: 390px;
+    border-radius: 8px;
+    position: absolute;
+
+}
+
+/* play instantly part end */
+
+.games-items-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding: 20px 470px;
+}
+
+.games-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-left: 27px;
+    border-radius: 50px;
+}
+
+.items-title {
+    color: var(--primaryfont);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 16px;
+}
+
+.games-items:hover {
+    border: 1px solid var(--primary);
+}
+
+footer{
+    background-color: #0B0223;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    margin-top: 120px;
+    display: flex;
+    margin-right: 120px;
+}
+.footer-logo-content{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-button-title{
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 60px;
+}
