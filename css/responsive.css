@@ -1,38 +1,124 @@
 @media screen and (max-width:576px) {
-    nav{
+    .navber-container{
+        padding: 35px 0 0 133px;
+    }
+    nav {
         flex-direction: column;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
     }
-    .nav-items{
+
+    .nav-items {
         flex-direction: column;
     }
-    .nav-items li{
+
+    .nav-items li {
         margin-top: 36px;
     }
-    .icon-container{
+
+    .icon-container {
         width: 200px;
         margin-top: 62px;
     }
-    .icon{
+
+    .icon {
         display: flex;
     }
+
+    .banner-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-bg {
+        width: 555px;
+        height: 408px;
+        flex-shrink: 0;
+    }
+
+    .banner-img {
+        flex-shrink: 0;
+        padding: 0 209px 0 155px;
+    }
+
+    .banner-img img {
+        width: 630px;
+        height: 365px;
+    }
+    .we-gamer-container{
+        max-width: 100%;
+    }
+    .we-gamer-layout{
+        flex-direction: column;
+        padding: 0 61px;
+
+    }
+    .we-gamer-img-container{
+        padding: 0 0;
+    }
+    .gamer-img{
+        width: 430px;
+        height: auto;
+    }
+    .we-gamer-content {
+        text-align: center;
+    }
+
 }
 
 /* tablet or medium devices */
-@media  screen and (min-width:576px) and (max-width: 960px) {
-    .navber-container{
+@media screen and (min-width:576px) and (max-width: 960px) {
+    .navber-container {
         flex-direction: column;
         padding: 0;
     }
-    .nav-items-container{
+
+    .nav-items-container {
         margin-top: 20px;
     }
-    .nav-items{
+
+    .nav-items {
         align-items: center;
     }
-    .nav-items li{
+
+    .nav-items li {
         margin-right: 32px;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+
+    }
+    .banner-img img{
+        height: auto;
+        width: 630px;
+        margin-left: 370px;
+    }
+    .banner-bg{
+        height: auto;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .banner-content{
+        padding-top: 50px;
+    }
+    .we-gamer-container{
+        max-width: 100%;
+    }
+    .we-gamer-layout{
+        flex-direction: column;
+        padding: 0 61px;
+
+    }
+    .we-gamer-img-container{
+        padding: 0 0;
+    }
+    .gamer-img{
+        width: 655px;
+        height: auto;
+    }
+    .we-gamer-content {
+        text-align: center;
     }
 }
