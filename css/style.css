@@ -14,107 +14,96 @@ body {
     --primary: #FF42A5;
     --fontcolor: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     --btncolor: #4EC5F7;
-    --navitem: #3C354F;
+    --primaryfont: #3C354F;
 }
 
-nav {
-    padding: 0 240px 0 200px;
-    height: 130px;
+.navber-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
+    padding: 35px 240px;
 }
 
-nav .logo {
+.logo-container {
     display: flex;
     align-items: center;
-    width: 50%;
 }
 
-.logopng {
-    width: 86px;
-    height: 40px;
-}
-
-nav .logo h2 {
+.logocontent {
     font-size: 45px;
     font-weight: 700;
-    padding-left: 10px;
-}
-.nav-item-container{
-    width: 50%;
+    color: var(--primaryfont);
+    margin-left: 15px;
 }
 
-nav ul {
+.nav-items-container ul {
     display: flex;
     align-items: center;
 }
 
-nav ul li {
+.nav-items-container li {
     list-style: none;
-    margin-right: 32px;
-    
-
 }
 
-nav ul li a {
+.nav-items-container li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    color: var(--navitem);
-
+    color: var(--primaryfont);
 }
 
-.nav-btn {
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 32px;
+}
+
+.icon-container {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    display: flex;
-    padding: 10px;
 }
 
-.nav-btn a {
+.icon-container li {
+    display: flex;
+    padding: 10px;
     align-items: center;
 }
 
-.icon {
-    display: flex;
+.icon img {
+    width: 24px;
+    margin-left: 10px;
 }
 
-.icon a img {
-    width: auto;
-    height: 24px;
-}
-
+/* navber part end */
 
 /* banner part start */
 .banner-container {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .banner-bg {
     background-image: url(../images/Group\ 14.png);
-    width: 901px;
-    height: 700px;
     background-repeat: no-repeat;
-    background-position: left;
+    background-size: cover;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner-bg h2 {
-    color: #0B0223;
-    text-align: center;
+.banner-subtitle {
+    color: var(--primaryfont);
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.banner-bg h1 {
-    text-align: center;
+.banner-title {
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
@@ -123,95 +112,17 @@ nav ul li a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.banner-a a {
-    display: block;
-    text-decoration: none;
-    margin-bottom: 17px;
-    color: var(--navitem);
+.banner-item{
+    padding-top: 24px;
 }
-
-.banner-container img {
-    margin-right: 240px;
-}
-
-.banner-btn {
-    display: flex;
-    gap: 10px;
-}
-
-.banner-btn a {
-    text-decoration: none;
-    color: #fff;
+.banner-item p{
+    color: var(--primaryfont);
     font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-
-}
-
-.primary {
-    background-color: var(--primary);
-    padding: 21px 40px;
-    border-radius: 48px;
-}
-
-.btnanother {
-    background-color: var(--btncolor);
-    padding: 21px 40px;
-    border-radius: 48px;
-}
-
-/* we are gamer part start */
-.we-gammer-container {
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    display: flex;
-    padding: 55px 240px;
-    text-align: end;
-    max-width: 100%;
-}
-
-.primary a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.we-gammer-container .primary{
-    margin-left: 550px;
-    margin-bottom: 45px;
-}
-
-.we-gammer-content {
-    max-width: 520px;
-    text-align: right;
-}
-
-.we-gamer-content h2 {
-    font-size: 48px;
-    font-weight: 700;
-    margin-top: 95px;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.we-gamer-content p {
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--navitem);
-    padding: 24px 0px 53px 75px;
-}
-.we-gamer-content h6{
-    color: var(--navitem);
-    font-size: 24px;
     font-weight: 500;
+    padding-bottom: 17px;
 }
-.we-gamer-content h3{
-    color: var(--navitem);
-    font-size: 32px;
-    font-weight: 700;
+.banner-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
-
-/* games card part start */

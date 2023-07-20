@@ -1,0 +1,38 @@
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .nav-items li{
+        margin-top: 36px;
+    }
+    .icon-container{
+        width: 200px;
+        margin-top: 62px;
+    }
+    .icon{
+        display: flex;
+    }
+}
+
+/* tablet or medium devices */
+@media  screen and (min-width:576px) and (max-width: 960px) {
+    .navber-container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-items-container{
+        margin-top: 20px;
+    }
+    .nav-items{
+        align-items: center;
+    }
+    .nav-items li{
+        margin-right: 32px;
+    }
+}
